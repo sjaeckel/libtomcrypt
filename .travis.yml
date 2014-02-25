@@ -26,4 +26,6 @@ before_script:
 after_script:
   - cat gcc_2.txt
 notifications:
-  irc: "chat.freenode.net#libtom"
+  irc:
+    channels:
+      - "chat.freenode.net#libtom"
